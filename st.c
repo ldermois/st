@@ -35,7 +35,7 @@
 #define ESC_ARG_SIZ   16
 #define STR_BUF_SIZ   ESC_BUF_SIZ
 #define STR_ARG_SIZ   ESC_ARG_SIZ
-#define HISTSIZE      99999 
+#define HISTSIZE      9999
 
 /* macros */
 #define IS_SET(flag)		((term.mode & (flag)) != 0)
